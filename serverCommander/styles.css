@@ -1,0 +1,120 @@
+body{
+    background-color: #464646;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    font-family: sans-serif;
+}
+
+#headerImg{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+#allServerWrapper{
+    height: fit-content;
+    overflow: auto;
+}
+
+.serverWrapper{
+    float: left;
+    margin-right: 50px;
+    font-size: 11pt;
+    min-width: 370px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.gsltAnker{
+    color: black;
+}
+
+#csgoConnectCmd{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+#csgoConnectCmdSpan{
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+input[type=text], input[type=number], select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.saveBtn {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #464646;
+    color: black;
+    border: 2px solid #000000;
+  }
+  
+  .saveBtn:hover {
+    background-color: #3d7e4a;
+    color: white;
+  }
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .advancedSettings {
+    padding: 0 18px;
+    margin-bottom: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
